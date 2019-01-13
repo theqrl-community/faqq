@@ -1,6 +1,6 @@
 html {
-  background-color:#012;
-  color: white;
+  background-color:#024;
+  color: #FFF;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -10,10 +10,21 @@ body {
 	margin:0 auto;
 } 
 
+h2, h3 {
+  font-family: 'Quicksand';
+  font-weight: 300;
+}
 h2 {
-	font-family: 'Quicksand';
-	font-weight: 300;
-	font-size:62px
+	font-size:62px;
+}
+h3 {
+  font-size: 35px;
+}
+p, ul, li {
+  color:#BBB;
+}
+a {
+  color:#ABF;
 }
 .footer {
   border:1px solid #234;
@@ -22,10 +33,13 @@ h2 {
 
 .section {
   display:none;
+
+  &.view {
+    display:block;
+    animation: fadeIn 1s;
+  }
 }
-.section.view {
-  display:block;
-}
+
 .more {
   list-style:none;
 }
@@ -43,4 +57,9 @@ h2 {
   color:#000;
   font-weight:bold;
   border-radius:5px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
 }

@@ -5,7 +5,7 @@
 
 {% for faq in faqs %}
 {% assign refs = faq.ref %}
-<div class="section view" id="{{ faq.slug }}">
+<div class="section" id="{{ faq.slug }}">
 	<h2 class="statement">{{ faq.title }}</h2>
 	{{ faq.content }}  
 
@@ -32,5 +32,5 @@
 	{% for faq in faqs %}
 	<li><a href="#{{ faq.slug }}">{{ faq.title }} »</a></li>
 	{% endfor %}
-	<li><a href="/">Start »</a></li>
+	<li><a href="{{ site.baseurl }}/">Start »</a></li>
 </ul>
