@@ -1,0 +1,46 @@
+html {
+  background-color:#012;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+body {
+	max-width: 800px;
+	margin:0 auto;
+} 
+
+h2 {
+	font-family: 'Quicksand';
+	font-weight: 300;
+	font-size:62px
+}
+.footer {
+  border:1px solid #234;
+  text-align:center;
+}
+
+.section {
+  display:none;
+}
+.section.view {
+  display:block;
+}
+.more {
+  list-style:none;
+}
+.more a {
+  color:#ACF;
+}
+.buttons {
+  list-style:none;
+}
+.buttons a {
+  display:inline-block;
+  background-color:#FFF;
+  padding:5px 10px; margin:3px 0px;
+  text-decoration:none;
+  color:#000;
+  font-weight:bold;
+  border-radius:5px;
+}
