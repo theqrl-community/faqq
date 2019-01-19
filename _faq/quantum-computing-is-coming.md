@@ -2,6 +2,7 @@
 title:  "Quantum Computing is Coming"
 ref: ['quantum-computing-is-far-away', 'quantum-computing-will-affect-bitcoin']
 ---
+
 - Quantum computing is finally on the verge of becoming commercially useful.
 - It presents revolutionary opportunities for AI, chemistry, materials science, finance, and more. 
 - The USA, China, and EU are investing billions into research.

@@ -17,7 +17,7 @@ title: The QRL FAQ
 email: self@jackalyst.com
 description: >- # this means to ignore newlines until "baseurl:"
   Testing
-baseurl: "/quantumfaq" # the subpath of your site, e.g. /blog
+baseurl: "/faqq" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jackalyst
 github_username:  jackalyst
@@ -45,7 +45,7 @@ defaults:
       layout: faq
 # Build settings
 markdown: kramdown
-theme: qrl
+local_theme: qrl
 plugins:
   - jekyll-feed
 # Exclude from processing.

@@ -78,9 +78,14 @@ a {
   color:#FFF;
   font-weight:bold;
   border-radius:5px;
+
   &:hover {
     background-color: $quantum_hover;
   }
+}
+
+.buttons .curated a {
+  background-color: $quantum_deep; 
 }
 
 @keyframes fadeIn {
