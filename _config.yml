@@ -32,7 +32,7 @@ minima:
 
 collections:
   faq: 
-    permalink: "/:collection/:path/"
+    permalink: "/:path/"
     output: true
 defaults:
   - scope: 
@@ -45,6 +45,8 @@ defaults:
       layout: faq
 # Build settings
 markdown: kramdown
+kramdown:
+  extensions: [footnotes] 
 local_theme: qrl
 plugins:
   - jekyll-feed

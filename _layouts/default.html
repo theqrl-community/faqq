@@ -7,11 +7,9 @@
     {% assign pageclass = 'homepage' %}
   {% endif %}
   <body class="{{ pageclass }}">
-  	<div class="overflow">
-      {% include header.html %}
-          {{ content }}
-      {% include footer.html %}
-  	</div>
+    {% include header.html %}
+        {{ content }}
+    {% include footer.html %}
   </body>
 
 </html>

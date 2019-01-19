@@ -1,5 +1,5 @@
 ---
-title: "Quantum Computing will affect Bitcoin"
+title: "Quantum Computing will affect Bitcoin and Blockchain"
 ---
 
 - A powerful quantum computer can reverse Bitcoin public keys into private keys in a matter of minutes
