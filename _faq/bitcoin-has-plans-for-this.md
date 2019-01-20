@@ -1,5 +1,6 @@
 ---
 title: "Bitcoin’s developers have already planned for this"
+category: misconception
 ---
 
 Their current best plan will not be enough to avoid severe challenges.

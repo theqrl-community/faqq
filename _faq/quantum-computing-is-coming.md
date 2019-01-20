@@ -1,19 +1,18 @@
 ---
 title:  "Quantum Computers are Coming"
 ref: ['quantum-computing-is-far-away', 'quantum-computing-will-affect-bitcoin']
+category: statement
 ---
 
 ## And it's time we take notice
 
-- NISQ Era devices on the horizon[^NISQ].
+- NISQ Era devices are on the horizon[^NISQ].
 - It presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and more. 
 - The USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. 
 - Tech giants such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], and Microsoft[^MICROSOFT] are already competing for market share.
 
 As a byproduct of this global technilogical arms race, quantum computers powerful enough to break modern cryptography are expected to exist within 10-20 years, if not sooner.
 
-
-### Footnotes 
 
 [^NISQ]: Noisy Intermediate-Scale Quantum (NISQ) Computers
 

@@ -14,6 +14,7 @@ html {
 body {
 	max-width: 1024px;
 	margin:0 auto;
+  padding:1em;
 } 
 
 h1, h2, h3, h4, h5 {
@@ -24,7 +25,10 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-bottom:0.2em;
 }
-
+h1 span {
+  display:block;
+  font-size:0.5em;
+}
 h2 {
   color: $quantum_burst;
 	font-size:62px;
@@ -45,6 +49,10 @@ p, ul, ol {
     // color:#BBB;
   }  
 }
+
+li, ul {
+  padding-left: 10px;
+}
 a {
   color:#55E;
 }
@@ -56,8 +64,7 @@ sup a {
   display:none;
 }
 .footer {
-  border:1px solid #234;
-  text-align:center;
+
 }
 
 .section {
@@ -75,7 +82,9 @@ sup a {
     > *:nth-child(1) { animation: fadeIn 0.3s; animation-delay: 0.0s; animation-fill-mode: forwards;  }
     > *:nth-child(2) { animation: fadeIn 0.3s; animation-delay: 0.1s; animation-fill-mode: forwards;  }
     > *:nth-child(3) { animation: fadeIn 0.3s; animation-delay: 0.2s;  animation-fill-mode: forwards; }
-    > *:nth-child(4) { animation: fadeIn 0.3s; animation-delay: 0.3s;  animation-fill-mode: forwards; }     
+    > *:nth-child(4) { animation: fadeIn 0.3s; animation-delay: 0.3s;  animation-fill-mode: forwards; }
+    > *:nth-child(5) { animation: fadeIn 0.3s; animation-delay: 0.4s;  animation-fill-mode: forwards; }     
+    > *:nth-child(6) { animation: fadeIn 0.3s; animation-delay: 0.4s;  animation-fill-mode: forwards; }     
     > .buttons { animation: fadeIn 0.3s; animation-delay: 0.3s;   animation-fill-mode: forwards; }
   }
 }
@@ -86,26 +95,43 @@ sup a {
 .more a {
   color:#ACF;
 }
+
+.buttons.head {
+  padding-left: 0;
+  list-style: none;
+
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: $quantum_burst;
+    padding:2px 7px;
+    border-radius: 5px;
+
+
+    &:hover {
+      color:#FFF;
+      background-color: $quantum_hover;
+    }
+  }
+}
 .buttons {
-  list-style:none;
-  padding-left:0;
+  list-style: decimal;
+  // padding-left:0;
 }
 .buttons a {
-  display:inline-block;
-  background-color:$quantum_burst;
-  padding:5px 10px; margin:3px 0px;
-  text-decoration:none;
-  color:#FFF;
-  font-weight:bold;
-  border-radius:5px;
+  color: $quantum_burst;
+  font-weight:500;
+  font-family: "Quicksand";
 
   &:hover {
-    background-color: $quantum_hover;
+    color: $quantum_hover;
   }
 }
 
 .buttons .curated a {
-  background-color: $quantum_deep; 
+  // color: $quantum_deep; 
 }
 
 @keyframes fadeIn {

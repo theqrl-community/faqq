@@ -1,5 +1,6 @@
 ---
 title: "Bitcoin will just hardfork"
+category: misconception
 ---
 
 ## This doesn’t fix the main problem.
