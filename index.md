@@ -11,7 +11,7 @@
 
 <h2>Table of Contents</h2>
 
-<h3>Statements</h3>
+<h3>Statements & Assertions</h3>
 <p>Start with the statements, when you agree with these, move onto the common misconceptions.</p>
 <ul class="buttons">
 	{% for faq in statements %}

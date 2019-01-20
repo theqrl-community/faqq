@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+{% assign misconceptions = site.faq | where: "category","misconception" %}
+{% assign statements = site.faq | where: "category","statement" %}
+
 <h1>
   The QRL FAQQ
   <span>(Frequently Asked Quantum Questions)</span>
@@ -17,7 +21,16 @@ layout: default
     {{ content }}
   </div>
 
-  <h3>Common FAQQ</h3>
+  <h3>Other Assertions</h3>
+  <ul class="buttons two">
+    {% for statement in statements %}
+      {% if statement.title != page.title %}
+        <li><a href="{{ site.baseurl }}/{{ statement.slug }}">{{ statement.title }} »</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3>Common Misconceptions</h3>
   <ul class="buttons two">
     {% for reference in page.ref %}
       <li class="curated"><a href="{{ site.baseurl }}/{{ reference }}">
@@ -31,7 +44,7 @@ layout: default
       </li>
     {% endfor %}
 
-    {% for faqq in site.faq %}
+    {% for faqq in misconceptions %}
       {% if page.ref contains faqq.slug %}
         
       {% else %}
@@ -50,16 +63,16 @@ layout: default
 </div>
 <script type="text/javascript">
 // Parent
-var ul = document.querySelector('.buttons.two ');
-var ulchosen = document.querySelectorAll('.buttons.two .curated');
+// var ul = document.querySelector('.buttons.two ');
+// var ulchosen = document.querySelectorAll('.buttons.two .curated');
 
 
-for (var i = ul.children.length; i >= 0; i--) {
-    ul.appendChild(ul.children[Math.random() * i | 0]);
-}
-for (var i = 0; i < ulchosen.length; i++) {
-  ul.prepend(ulchosen[i]);
-}
+// for (var i = ul.children.length; i >= 0; i--) {
+//     ul.appendChild(ul.children[Math.random() * i | 0]);
+// }
+// for (var i = 0; i < ulchosen.length; i++) {
+//   ul.prepend(ulchosen[i]);
+// }
 
 // Move footnotes to...
 var footnotes = document.querySelector('.footnotes');

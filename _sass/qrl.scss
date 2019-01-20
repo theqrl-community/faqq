@@ -42,7 +42,11 @@ p, ul, ol {
   line-height: 1.7;
   // color:#BBB;
 }
-
+footer {
+  text-align: center;
+  border-top:1px solid #DDD;
+  font-size:80%;
+}
 .footnotes {
   p, ul, ol {
     line-height: 1.2;
@@ -63,28 +67,28 @@ sup a {
 .footnotes ol li a[href^="#fnref:"] {
   display:none;
 }
-.footer {
 
-}
 
 .section {
-  display:none;
+  visibility:hidden;
 
   > * {
     opacity: 0;
   }
 
   &.view {
-    display:block;
+    visibility: visible;
     animation: fadeIn 0.2s;
     animation-fill-mode: forwards;
 
-    > *:nth-child(1) { animation: fadeIn 0.3s; animation-delay: 0.0s; animation-fill-mode: forwards;  }
-    > *:nth-child(2) { animation: fadeIn 0.3s; animation-delay: 0.1s; animation-fill-mode: forwards;  }
-    > *:nth-child(3) { animation: fadeIn 0.3s; animation-delay: 0.2s;  animation-fill-mode: forwards; }
-    > *:nth-child(4) { animation: fadeIn 0.3s; animation-delay: 0.3s;  animation-fill-mode: forwards; }
-    > *:nth-child(5) { animation: fadeIn 0.3s; animation-delay: 0.4s;  animation-fill-mode: forwards; }     
-    > *:nth-child(6) { animation: fadeIn 0.3s; animation-delay: 0.4s;  animation-fill-mode: forwards; }     
+    > *:nth-child(1) { animation: fadeIn 0.8s; animation-delay: 0.0s; animation-fill-mode: forwards;  }
+    > *:nth-child(2) { animation: fadeIn 0.8s; animation-delay: 0.0s; animation-fill-mode: forwards;  }
+    > *:nth-child(3) { animation: fadeIn 0.8s; animation-delay: 0.1s;  animation-fill-mode: forwards; }
+    > *:nth-child(4) { animation: fadeIn 0.8s; animation-delay: 0.2s;  animation-fill-mode: forwards; }
+    > *:nth-child(5) { animation: fadeIn 0.8s; animation-delay: 0.3s;  animation-fill-mode: forwards; }     
+    > *:nth-child(6) { animation: fadeIn 0.8s; animation-delay: 0.4s;  animation-fill-mode: forwards; }     
+    > *:nth-child(7) { animation: fadeIn 0.8s; animation-delay: 0.5s;  animation-fill-mode: forwards; }  
+    > *:nth-child(8) { animation: fadeIn 0.8s; animation-delay: 0.6s;  animation-fill-mode: forwards; }   
     > .buttons { animation: fadeIn 0.3s; animation-delay: 0.3s;   animation-fill-mode: forwards; }
   }
 }

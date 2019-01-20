@@ -1,12 +1,13 @@
 ---
 title:  "Quantum Computers are Coming"
-ref: ['quantum-computing-is-far-away', 'quantum-computing-will-affect-bitcoin']
+ref: ['quantum-computing-is-far-away']
 category: statement
 ---
 
 ## And it's time we take notice
 
 - NISQ Era devices are on the horizon[^NISQ].
+- Quantum Computing is developing at a steady pace[^PACE].
 - It presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and more. 
 - The USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. 
 - Tech giants such as Google[^GOOGLE], IBM[^IBM], Intel[^INTEL], and Microsoft[^MICROSOFT] are already competing for market share.
@@ -27,6 +28,19 @@ As a byproduct of this global technilogical arms race, quantum computers powerfu
 
 	- [How Quantum Computing is Enabling Breakthroughs in Chemistry](https://singularityhub.com/2018/11/15/how-quantum-computing-is-enabling-breakthroughs-in-chemistry/#sm.00000bpgtz1n09cnurehf6jeoc88e), Mark Jackson, Nov 2018, Singularity Hub
 	- [Trapped-ion quantum computer does chemistry calculations for the first time](https://www.chemistryworld.com/news/trapped-ion-quantum-computer-does-chemistry-calculations-for-the-first-time/3009296.article), Philip Ball, July 2018, The Royal Society of Chemistry
+
+[^PACE]: Quantum computing pace of development
+
+	- 2010: **3 qubit** quantum computer calculated the energy spectrum of molecular hydrogen to high precision 
+	- 2016: [IBM has **5 qubits** you can work with in a cloud](https://quantumexperience.ng.bluemix.net/qx/experience)
+	- 2017: [IBM had a **16 qubit** quantum computer](https://www-03.ibm.com/press/us/en/pressrelease/52403.wss)
+	- 2017: [Intel develops a **17-qubit** chip](https://newsroom.intel.com/news/intel-delivers-17-qubit-superconducting-chip-advanced-packaging-qutech/)
+	- 2017: [IBM reveals a working **50-qubit** quantum computer that can maintain its quantum state for 90 microseconds](https://www.technologyreview.com/s/609451/ibm-raises-the-bar-with-a-50-qubit-quantum-computer/)
+	- 2017: Google announced to have a **51 qubit** quantum computer
+	- 2018: [Google announced **72 quits**. From the article “A Preview of Bristlecone, Google’s New Quantum Processor”, March 5, 2018 ](https://research.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html)
+	- 2018: [Intel announces a new **49-qubit** quantum chip](https://newsroom.intel.com/news/intel-advances-quantum-neuromorphic-computing-research/)
+	- 2018: [IonQ has a **79 qubit** quantum computer](https://www.techspot.com/news/77887-new-type-quantum-computer-has-smashed-every-record.html)
+
 
 [^MATERIALS]: Materials Science
 
@@ -52,7 +66,7 @@ As a byproduct of this global technilogical arms race, quantum computers powerfu
 	- [Europe’s billion-euro quantum flagship hands out first grants](https://www.sciencemag.org/news/2018/10/europe-s-billion-euro-quantum-flagship-hands-out-first-grants), Edwin Cartlidge, October 2018, Sciencemag
 
 [^GOOGLE]: Google
-
+	- "It should be about 5 years to 1000 qubit chips with superconducting technology. It should be about 10 years to million qubit chips." From the article [A Preview of Bristlecone, Google’s New Quantum Processor](https://www.nextbigfuture.com/2018/06/intel-superconducting-quantum-technology-could-push-to-1000-qubits-by-2023-and-silicon-spin-qubits-to-1-million-qubits-by-2028.html), june 10, 2018 
 	- [Google reclaims quantum computer crown with 72 qubit processor](https://thenextweb.com/artificial-intelligence/2018/03/06/google-reclaims-quantum-computer-crown-with-72-qubit-processor/), Tristan Greene, March 2018, TheNextWeb
 	- [Google and NASA Tackle Quantum Supremacy](https://www.hpcwire.com/2018/11/06/google-and-nasa-tackle-quantum-supremacy/), John Russel, November 2018, HPC Wire
 
