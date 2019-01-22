@@ -1,10 +1,10 @@
 ---
-title:  "Quantum Computers are Coming"
+title:  "Major advances in quantum computing continue"
 ref: ['quantum-computing-is-far-away']
 category: statement
 ---
 
-## And it's time we take notice
+## Here's what you need to know
 
 - NISQ Era devices are on the horizon[^NISQ].
 - Quantum Computing is developing at a steady pace[^PACE].
