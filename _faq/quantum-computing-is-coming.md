@@ -7,6 +7,7 @@ category: statement
 ## Here's what you need to know
 
 - NISQ Era devices are on the horizon[^NISQ].
+- Quantum computing is finally on the verge of becoming commercially useful[^COMM].
 - Quantum Computing is developing at a steady pace[^PACE].
 - It presents revolutionary opportunities for AI[^AI], chemistry[^CHEM], materials science[^MATERIALS], finance[^FINANCE], and more. 
 - The USA[^USA], China[^CHINA], EU[^EU] and other nation states are investing heavily into quantum computing. 
@@ -20,6 +21,10 @@ As a byproduct of this global technilogical arms race, quantum computers powerfu
 	- [Quantum Computing in the NISQ era and beyond](https://arxiv.org/pdf/1801.00862.pdf), John Preskill, July 2018, Institute for Quantum Information and Matter and Walter Burke Institute for Theoretical Physics, California Institute of Technology, Pasadena
 	- [We've Entered a New Era in Quantum Computing](https://gizmodo.com/weve-entered-a-new-era-of-quantum-computing-1821807439), Ryan F. Mandelbaum, May 2018, Gizmodo
 
+[^COMM]: 
+
+	- In January 2019, IBM presented it's first commercial quantum computer. (https://www.theinquirer.net/inquirer/news/3068921/ibms-q-system-one-is-the-worlds-first-commercial-quantum-computer). It’s not an exiting step if we’re looking at the technical aspects of this particular quantum computer. 
+	- In december 2018, a month earlier IonQ broke the record for number of Qubits: they announced a 79 qubits quantum computer. https://www.techspot.com/news/77887-new-type-quantum-computer-has-smashed-every-record.html But it’s a huge milestone to have a commercial quantum computer. Although the earnings might be beginners level, from now on, funding also comes in from a commercial channel.
 
 [^AI]: Machine Learning & AI
 	- [Google Quantum AI Research Effort](https://ai.google/research/teams/applied-science/quantum-ai/) 
