@@ -7,7 +7,7 @@ layout: default
 
 <h1>
   The QRL FAQQ
-  <span>(Frequently Asked Quantum Questions)</span>
+  <span>(Frequently asked Quantum Questions)</span>
 </h1>
 
 <div class="section">

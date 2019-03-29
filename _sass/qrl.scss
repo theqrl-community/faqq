@@ -1,6 +1,7 @@
-$quantum_burst:#dc255d;
+// $quantum_burst:#dc255d;
 $quantum_sky:#4A90E2;
 $quantum_deep: #0A0724;
+$quantum_burst: $quantum_sky;
 $quantum_hover: #860E33;
 
 html {
@@ -18,12 +19,12 @@ body {
 } 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Quicksand';
-  font-weight: 300;
+  font-weight: 100;
   color:#000;
 }
 h1 {
   margin-bottom:0.2em;
+
 }
 h1 span {
   display:block;
@@ -127,15 +128,20 @@ sup a {
 .buttons a {
   color: $quantum_burst;
   font-weight:500;
-  font-family: "Quicksand";
 
   &:hover {
     color: $quantum_hover;
   }
 }
-
+.statement {
+  font-weight: 300;
+}
 .buttons .curated a {
   // color: $quantum_deep; 
+}
+
+body > h1, .buttons.head {
+  text-align: center;
 }
 
 @keyframes fadeIn {
