@@ -27,4 +27,3 @@ category: misconception
 	All these steps take time. Estimates need to be made for each step. There's a lot of money at stake. And then quite soon after that, they'll have to go at it again. What they will do next? Go for 512 bit curves? Same issues.
 	
 	It's just patchworks. With bigger downsides than upsides. And all the period a real solution is being postponed, more addresses will be lost and it will result in a bigger percentage of lost coins vulnerable for ever. Upgrade to a real quantum resistant signature scheme is the only thing worth looking at.
-
