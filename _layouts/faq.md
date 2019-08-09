@@ -64,7 +64,7 @@ layout: default
     <h3>Have a question that's not addressed?</h3>
     <h4>Alternatively, don't agree with something?</h4>
     <p>While we aim to address many of the questions people may have about quantum computing and how it relates to blockchain, it's possible things are missed or is incorrect.</p>
-    <p>If you feel something is missed or is otherwise incorrect, we would <strong>love</strong> for you to <a class="cta" href="https://github.com/theqrl-community/faqq/issue">open an issue</a> on our <a href="https://github.com/theqrl-community/faqq">github repository</a>.</p>
+    <p>If you feel something is missed or is otherwise incorrect, we would <strong>love</strong> for you to <a class="cta" href="https://github.com/theqrl-community/faqq/issues">open an issue</a> on our <a href="https://github.com/theqrl-community/faqq">github repository</a>.</p>
   </div>
 </div>
 
