@@ -6,7 +6,7 @@ layout: default
 {% assign statements = site.faq | where: "category","statement" %}
 
 <h1>
-  The QRL FAQQ
+  The FAQQ
   <span>(Frequently asked Quantum Questions)</span>
 </h1>
 
@@ -60,20 +60,15 @@ layout: default
   </div>
 
 
+  <div class="calltoquery">
+    <h3>Have a question that's not addressed?</h3>
+    <h4>Alternatively, don't agree with something?</h4>
+    <p>While we aim to address many of the questions people may have about quantum computing and how it relates to blockchain, it's possible things are missed or is incorrect.</p>
+    <p>If you feel something is missed or is otherwise incorrect, we would <strong>love</strong> for you to <a class="cta" href="https://github.com/theqrl-community/faqq/issue">open an issue</a> on our <a href="https://github.com/theqrl-community/faqq">github repository</a>.</p>
+  </div>
 </div>
+
 <script type="text/javascript">
-// Parent
-// var ul = document.querySelector('.buttons.two ');
-// var ulchosen = document.querySelectorAll('.buttons.two .curated');
-
-
-// for (var i = ul.children.length; i >= 0; i--) {
-//     ul.appendChild(ul.children[Math.random() * i | 0]);
-// }
-// for (var i = 0; i < ulchosen.length; i++) {
-//   ul.prepend(ulchosen[i]);
-// }
-
 // Move footnotes to...
 var footnotes = document.querySelector('.footnotes');
 var newparent = document.querySelector('.footer');
