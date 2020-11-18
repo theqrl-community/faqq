@@ -248,8 +248,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  nokogiri (>= 1.10.4)
   qrl!
   tzinfo-data
 
 BUNDLED WITH
-   1.16.4
+   1.17.3
